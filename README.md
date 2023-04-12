@@ -96,3 +96,8 @@ The tests are pre-written for you. Make sure they pass!
 ### Assignment Submission Instructions
 
 Refer to the the [Submitting Express Server Lab Submission Instructions](../../../reference/submission-instructions/labs/express-servers.md) for the complete lab submission process and expectations
+
+## UML
+
+![Lab 7 UML](https://user-images.githubusercontent.com/120413183/231360743-f56aa0c6-2a9f-42cc-8166-b69723002295.png)
+

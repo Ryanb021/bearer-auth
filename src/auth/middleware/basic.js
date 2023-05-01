@@ -7,11 +7,11 @@ module.exports = async (req, res, next) => {
 
   try {
     if (!req.headers.authorization) { res.status(403).send('not authorized'); }
-  
+
     let basic = req.headers.authorization;
     let basicString = basic.split(' ').pop();
-   // console.log('basicString:', basicString);
-   
+    // console.log('basicString:', basicString);
+
     let [username, pass] = base64.decode(basicString).split(':');
     req.user = await users.authenticateBasic(username, pass);
     next();
